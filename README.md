@@ -48,7 +48,17 @@ echo "$border"
 # Задание 4
 grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' hello.go | grep -vE '\b(int|void|return|if|else|for|while|include|stdio)\b' | sort | uniq
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/c267db17-ec12-405b-aee0-28a6f761e2dc)
+
+# Задание 5
+
+chmod +x reg
+./reg banner
 
 
+
+
+# Задание 6
+chmod +x check_comment.sh
+./check_comment.sh
 
